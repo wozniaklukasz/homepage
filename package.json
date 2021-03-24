@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@formspree/react": "^2.2.3",
+    "date-fns": "^2.11.1",
+    "gray-matter": "^4.0.2",
+    "highlight.js": "^10.7.1",
+    "next": "^10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-entypo-icons": "^1.4.1",
+    "remark": "^12.0.0",
+    "remark-highlight.js": "^6.0.0",
+    "remark-html": "^12.0.0"
+  }
+}
