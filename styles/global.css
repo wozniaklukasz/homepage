@@ -18,11 +18,11 @@ a {
 }
 
 a.active {
-  color: #f30000;
+  color: #cc0000;
 }
 
 a:hover {
-  color: #f30000;
+  color: #cc0000;
   text-decoration: underline;
 }
 
@@ -32,6 +32,20 @@ img {
 }
 
 code {
-  background-color: #1E1E1E;
-  color: #DCDCDC;
+  background-color: white;
+  color: #666;
+}
+
+blockquote {
+  position: relative;
+}
+
+blockquote:before {
+  content: '';
+  position: absolute;
+  left: calc(-0.5em + 1px);
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #cc0000;
 }

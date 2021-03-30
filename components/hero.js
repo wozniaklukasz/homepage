@@ -2,16 +2,17 @@ import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
 import style from './hero.module.css'
 import Link from "next/link";
+import {siteTitle} from "../const";
 
 export default function Hero() {
   return (
     <div className={style.container}>
       <Image
         priority
-        src="/images/lukasz-wozniak.png"
+        src="/images/lukasz-wozniak.jpg"
         height={144}
         width={144}
-        alt='Łukasz Woźniak Software Developer'
+        alt={siteTitle}
         className={utilStyles.image}
       />
       <p className={style.text}>
