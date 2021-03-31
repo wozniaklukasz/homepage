@@ -10,7 +10,8 @@
     "prettier": "npx prettier --write .",
     "eslint": "eslint .",
     "stylelint": "npx stylelint \"**/*.css\"",
-    "linters": "npm run eslint && npm run stylelint"
+    "linters": "npm run eslint && npm run stylelint",
+    "test": "npm run eslint && npm run stylelint"
   },
   "dependencies": {
     "@formspree/react": "^2.2.3",
