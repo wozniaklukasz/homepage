@@ -1,10 +1,10 @@
 ---
-title: "Testing of redux action thunk"
+title: "Testing of redux-thunk action"
 date: "2021-03-30"
 tags: ["javascript", "redux", "redux-thunk", "jest", "testing"]
-description: "Practical approaches to test an application that uses async redux thunk action. Test will check effect of dispatched action on the state."
-slug: "testing-of-redux-action-thunk"
-image: "testing-of-redux-action-thunk.jpg"
+description: "Practical approach to test an application that uses async redux-thunk action. The test will check the effect of dispatched action on the state."
+slug: "testing-of-redux-thunk-action"
+image: "testing-of-redux-thunk-action.jpg"
 ---
 
 In this post, I will present some practical approaches to test an application that uses thunks from the [redux-thunk](https://github.com/reduxjs/redux-thunk) library.
@@ -205,4 +205,4 @@ expect(taskList).toEqual(expectedTaskList);
 
 The presented approach of thunk testing provides high code coverage. We do not check implementation details, only the result. We increase the resistance of tests to change in the code that do not affect the resulting state of the application
 
-Check out a [repository with described example](https://github.com/wozniaklukasz/blog-testing-of-redux-action-thunk).
+Check out a [repository with described example](https://github.com/wozniaklukasz/blog-testing-of-redux-thunk-action).
