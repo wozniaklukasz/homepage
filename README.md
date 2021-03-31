@@ -5,8 +5,15 @@ Repository for my personal webpage [https://lukaszwozniak.dev/](https://lukaszwo
 ---
 
 Todo:
+
+- www / http redirect
+- pwa
 - sitemap
 - ssr
+- tests
+- optimize images
+- resize images?
 
 Links:
+
 - img opt in GIMP https://www.youtube.com/watch?v=Np_jEXei9MA

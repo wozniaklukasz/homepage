@@ -18,11 +18,11 @@ a {
 }
 
 a.active {
-  color: #cc0000;
+  color: #c00;
 }
 
 a:hover {
-  color: #cc0000;
+  color: #c00;
   text-decoration: underline;
 }
 
@@ -40,12 +40,12 @@ blockquote {
   position: relative;
 }
 
-blockquote:before {
-  content: '';
+blockquote::before {
+  content: "";
   position: absolute;
   left: calc(-0.5em + 1px);
   top: 0;
   height: 100%;
   width: 2px;
-  background-color: #cc0000;
+  background-color: #c00;
 }

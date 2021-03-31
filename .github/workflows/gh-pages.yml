@@ -23,10 +23,11 @@ jobs:
     - name: Installing my packages
       run: npm ci
 
+    - name: Run linters
+      run: npm run linters
+
     - name: Build my App  
-      run: npm run build
-    - run: npm run export
-    - run: touch ./out/.nojekyll
+      run: npm run build && npm run export && touch ./out/.nojekyll
     
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.0
